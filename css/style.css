@@ -13,7 +13,7 @@ body {
 #grid-container {
   display: grid;
   grid-template-columns: repeat(19, 1fr);
-  grid-template-rows: 50px minmax(600px, auto) 50px;
+  grid-template-rows: 50px minmax(100%, auto) 50px;
 }
 
 /* logo */
@@ -32,20 +32,20 @@ body {
 #contents-container {
   grid-row: 2 / 3;
   grid-column: 5 / 16;
-  overflow: hidden;
+  -ms-overflow-style: none;
+}
+#contents-container::-webkit-scrollbar{ 
+  display:none; 
 }
 
-#contents-container img {
+#contents-container #bgm-btn {
   display: block;
   width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 #contents-container video {
   width: 800px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #contents-title {
@@ -54,6 +54,14 @@ body {
   font-size: 24px;
   font-weight: 900;
   text-align: center;
+}
+
+.poster {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 250px;
+  padding: 30px;
 }
 
 /* menu section */
