@@ -1,6 +1,7 @@
 * {
   background-color: black;
   color: white;
+  font-family: 'Noto Serif KR', serif;;
 }
 
 /* cursor */
@@ -30,8 +31,10 @@ body {
 
 /* contents section */
 #contents-container {
+  margin: 0 auto;
   grid-row: 2 / 3;
   grid-column: 5 / 16;
+  text-align: center;
 }
 
 #contents-container #bgm-btn {
@@ -49,7 +52,6 @@ body {
   margin: 50px;
   font-size: 24px;
   font-weight: 900;
-  text-align: center;
 }
 
 .poster {
@@ -72,6 +74,18 @@ body {
   float: left;
 }
 
+#wizarding-logo {
+  display: block;
+}
+
+#wizarding-logo img {
+  width: 200px;
+}
+
+#qna p {
+  text-align: left;
+  word-break: keep-all;
+}
 /* menu section */
 #menu-container {
   grid-row: 2 / 3;
@@ -80,9 +94,13 @@ body {
 
 ul {
   list-style: none;
+  margin-bottom: 30px;
+}
+
+ul li {
+  margin-bottom: 10px;
 }
 
 ul a {
   text-decoration: none;
-  padding: 5px;
 }
