@@ -32,10 +32,6 @@ body {
 #contents-container {
   grid-row: 2 / 3;
   grid-column: 5 / 16;
-  -ms-overflow-style: none;
-}
-#contents-container::-webkit-scrollbar{ 
-  display:none; 
 }
 
 #contents-container #bgm-btn {
@@ -62,6 +58,18 @@ body {
   width: 200px;
   height: 250px;
   padding: 30px;
+}
+
+#hogwart-logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.domitory-logo {
+  display: block;
+  width: 200px;
+  float: left;
 }
 
 /* menu section */
