@@ -19,4 +19,5 @@ const movieClose = document.querySelector('#movie-close');
 
 movieClose.addEventListener('click', function() {
   movieContainer.style.display = 'none';
+  document.getElementById('trailer').setAttribute('src', '');
 });
