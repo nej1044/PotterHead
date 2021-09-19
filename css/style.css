@@ -1,7 +1,8 @@
 * {
   background-color: black;
   color: white;
-  font-family: 'Noto Serif KR', serif;;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
 }
 
 /* cursor */
@@ -90,23 +91,50 @@ body {
 /* movie section */
 #movie-container {
   width: 100%;
-  grid-row: 2 / 3;
+  height: 700px;
   grid-column: 1 / 20;
   z-index: 2;
+  margin: 100px 0;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-#movie-close {
+#movie-intro {
   display: block;
-  position: absolute;
-  right: 100px;
-  top: 100px;
-  font-size: 30px;
+  float: left;
+  margin-left: 100px;
+}
+
+#movie-title {
+  display: block;
+  margin: 50px 0;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 #trailer {
   width: 600px;
-  margin: 100px;
+}
+
+#movie-summary {
+  display: block;
+  padding: 0;
+  list-style: none;
+}
+
+#movie-plot {
+  display: block;
+  float: left;
+  width: 600px;
+  height: 600px;
+  margin: 70px 50px 0px 50px;
+  word-break: keep-all;
+}
+
+#movie-close {
+  display: block;
+  position: relative;
+  top: 10px;
+  font-size: 30px;
 }
 
 /* menu section */
