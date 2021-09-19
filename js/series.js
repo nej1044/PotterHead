@@ -14,8 +14,6 @@ let currentMovie = '';
 document.addEventListener('click', function selectMovie(event) {
   if (event.target.className === 'poster') {
     currentMovie = document.querySelector(`#` + `${event.target.id}`);
-    const currentY = window.scrollY;
-    movieContainer.style.marginTop = currentY+100+'px';
     movieContainer.style.display = 'block';
     if (event.target.id === 'stone-logo') {
       document.getElementById('movie-title').innerText = `Harry Potter and the Philosopher's stone`;
