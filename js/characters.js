@@ -120,6 +120,8 @@ document.addEventListener('click', function selectCharacter(event) {
       document.getElementById('c-domitory').innerText = 'Ravenclaw';
       document.getElementById('c-birth').innerText = '1981.02.13';
       document.getElementById('c-blood').innerText = `Pure-Blood or Half-Blood`;
+      document.getElementById('c-wand').innerText = '';
+      document.getElementById('c-pet').innerText = '';
       document.getElementById('character-detail').innerHTML = `<span>미친 러브굿(Loony Lovegood).</span>
       <P>동그란 얼굴에 눈에 튀어 나와 있고 더티 블론드의 소녀. 독특한 사고방식과 기괴한 스타일로 모두에게 괴짜 취급을 받고 있으며 사실 실제로도 괴짜. 요즘 말하는 4차원 소녀로, 아버지 제노필리우스 러브굿도 루나와 그다지 다르지 않은 걸 봐서는 아버지의 영향을 많이 받은 듯하다. 어머니는 루나가 9살일때 마법 실험 사고로 사망했다. 해리가 세드릭 디고리의 죽음을 목격한 것처럼, 루나도 어머니의 죽음을 목격하고 그것을 이해한 경험이 있기에 세스트럴을 볼 수 있다.</P>
       <p>굽은뿔 스노캑이나 스터비 보드먼과 같은 상당히 독특한 것들을 언급한다. 이 때문에 더 괴짜 취급을 받지만, 래번클로 소속답게 의외로 명석한 모습을 보이기도 한다. 래번클로 소속이지만, 래번클로에는 친구가 하나도 없는 데다 따돌림당하고 있다. 같은 래번클로 학생들이 루나의 신발을 없애버려 맨발로 다녀야 했으나, 본인은 별로 개의치 않는 듯하다.</p>
@@ -133,6 +135,7 @@ document.addEventListener('click', function selectCharacter(event) {
       document.getElementById('c-birth').innerText = '1980.06.05';
       document.getElementById('c-blood').innerText = `Pure-Blood`;
       document.getElementById('c-wand').innerText = '산사나무, 유니콘의 털, 10인치, 적당한 탄력성';
+      document.getElementById('c-pet').innerText = '';
       document.getElementById('character-detail').innerHTML = `<span>백금발에 은회안, 창백한 피부, 날카로운 턱선을 가진 소년.</span>
       <P>별도의 이름 없이 말포이라고 부른다면 대개 드레이코 말포이를 부른다.</P>
       <p>신성한 28가문에서도 명문으로 일컬어지는 말포이 가문의 가주 루시우스 말포이와 블랙 가문의 영애 나르시사 말포이의 외아들로 태어났으며, 이름인 '드레이코(Draco)'는 대대로 별이나 별자리에서 따온 이름을 짓는 외가의 전통에 따라 용자리에서 따왔다.</p>
