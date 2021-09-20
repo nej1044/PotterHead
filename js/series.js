@@ -84,7 +84,7 @@ document.addEventListener('click', function selectMovie(event) {
 });
 
 // movie container close
-const movieClose = document.querySelector('#movie-close');
+const movieClose = document.querySelector('#close');
 
 movieClose.addEventListener('click', function () {
   movieContainer.style.display = 'none';
