@@ -45,46 +45,11 @@ body {
   text-align: center;
 }
 
-#contents-container #bgm-btn {
-  display: block;
-  width: 600px;
-  margin: 0 auto;
-}
-
-#contents-container video {
-  width: 800px;
-}
-
 #contents-title {
   display: block;
   margin: 50px;
   font-size: 24px;
   font-weight: 900;
-}
-
-.poster {
-  display: block;
-  float: left;
-  width: 200px;
-  height: 250px;
-  padding: 30px;
-}
-
-#characters-list img {
-  width: 200px;
-  margin: 20px;
-}
-
-#hogwart-logo {
-  display: block;
-  width: 100px;
-  margin: 0 auto;
-}
-
-.domitory-logo {
-  display: block;
-  width: 200px;
-  float: left;
 }
 
 #wizarding-logo {
@@ -101,6 +66,14 @@ body {
 }
 
 /* movie section */
+.poster {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 250px;
+  padding: 30px;
+}
+
 #movie-container {
   position: sticky;
   top: 0;
@@ -158,6 +131,10 @@ body {
 }
 
 /* character section */
+#characters-list img {
+  width: 200px;
+  margin: 20px;
+}
 
 #character-container {
   position: sticky;
@@ -213,6 +190,22 @@ body {
 #character-detail p {
   font-size: 15px;
   word-break: keep-all;
+}
+
+/* domitory section */
+
+#domitorys {
+  display: block;
+  width: 600px;
+  margin: auto 0;
+}
+
+.domitory-logo {
+  display: block;
+  width: 300px;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
 /* menu section */
