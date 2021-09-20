@@ -160,7 +160,7 @@ body {
   grid-column: 1 / 20;
   grid-row: 1 / 4;
   z-index: 2;
-  background-color: rgba(184, 22, 28, 0.9);
+  background-color: rgba(184, 22, 28);
 }
 
 #profile-img {
